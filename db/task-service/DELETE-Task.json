@@ -1,0 +1,10 @@
+{
+  "DELETE-task-service__tasks__id": {
+    "routeTo": "/DELETE/task-service/tasks/*",
+    "response": {
+      "status": 204,
+      "type": "json",
+      "payload": {}
+    }
+  }
+}

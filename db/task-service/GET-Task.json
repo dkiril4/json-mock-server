@@ -1,0 +1,18 @@
+{
+  "GET-task-service__tasks__id": {
+    "routeTo": "/GET/task-service/tasks/*",
+    "response": {
+      "status": 200,
+      "type": "json",
+      "payload": [
+        {
+          "id": 1,
+          "name": "Create Frontend App",
+          "description": "This is a big task, someone please divide it.",
+          "planned_start_date": "2021-11-22",
+          "planned_end_date": "2048-03-13"
+        }
+      ]
+    }
+  }
+}

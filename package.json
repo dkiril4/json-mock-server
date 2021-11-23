@@ -1,0 +1,12 @@
+{
+    "name": "odr-mock-api",
+    "main": "server.js",
+    "scripts": {
+        "start": "nodemon --watch ./db"
+    },
+    "dependencies": {
+        "json-server": "^0.16.1",
+        "lodash": "^4.17.15",
+        "nodemon": "^2.0.2"
+    }
+}

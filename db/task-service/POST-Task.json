@@ -1,0 +1,18 @@
+{
+  "POST-task-service__tasks": {
+    "routeTo": "/POST/task-service/tasks",
+    "response": {
+      "status": 201,
+      "type": "json",
+      "payload": [
+        {
+          "id": 10,
+          "name": "Mock New Task",
+          "description": "This is a new task. Maybe it will not be as big as the existing ones.",
+          "planned_start_date": "2021-11-22",
+          "planned_end_date": "2023-03-13"
+        }
+      ]
+    }
+  }
+}

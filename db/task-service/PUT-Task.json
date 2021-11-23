@@ -1,0 +1,10 @@
+{
+  "PUT-task-service__tasks": {
+    "routeTo": "/PUT/task-service/tasks/*",
+    "response": {
+      "status": 204,
+      "type": "json",
+      "payload": {}
+    }
+  }
+}
