@@ -2,7 +2,7 @@
 
 This is a mock server configured to serve static JSON files. It uses [json-server](https://www.npmjs.com/package/json-server) and builds upon it to make the development of new mock endpoints more seamless. The project assumes the following JSON file format.
 
-```json
+```javascript
 // GET-Task.json
 {
   "GET-task-service__tasks__id": {
